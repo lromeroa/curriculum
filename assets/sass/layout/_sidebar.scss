@@ -1,0 +1,19 @@
+.contenedor .item-1{
+  background-color: $verde;
+  padding-top: 10rem;
+  .sidebar{
+    position: fixed;
+    justify-content: center;
+    img{
+      margin: auto;
+    }
+  }
+}
+ul{
+  li{
+    margin-bottom: 20px;
+    a{
+      color: $black;
+    }
+  }
+}

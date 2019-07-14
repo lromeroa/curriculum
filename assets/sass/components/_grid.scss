@@ -1,0 +1,26 @@
+.contenedor{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+@media only screen and (max-width: 768px){
+  .contenedor{
+    width: 90%;
+    margin: auto;
+  }
+
+  .contenedor{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+}

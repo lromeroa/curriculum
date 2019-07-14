@@ -1,0 +1,46 @@
+.item-2 .main{
+  margin-left: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  .descripcion{
+    span{
+      font-weight: $regular;
+    }
+  }
+
+  .descripcion-1{
+    .icon {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.item-2 .contacto{
+  h5{
+    border: 1px solid $azul;
+  }
+  .dato{
+    margin-top: -0.5px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .item-2 .main{
+    .descripcion{
+      span{
+        font-weight: $regular;
+      }
+      i{
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .item-2 .contacto{
+    h5{
+      border: 1px solid $negro;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+h1{
+  font-size: $xxx-large;
+  font-weight: $black;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+h2{
+  font-size: $xx-large;
+  font-weight: $black;
+  text-align: left;
+  margin-top: 15rem;
+  border-top: 1px solid $negro;
+  padding-top: 4rem;
+
+}
+
+h3{
+  font-size: $x-large;
+  font-weight: $bold;
+  text-align: left;
+  margin-top: 4rem;
+}
+
+h4{
+  font-size: $large;
+  font-weight: $light;
+  text-align: left;
+  margin-top: 4rem;
+}
+
+h5{
+  font-size: $medium;
+  font-weight: $medium;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+p{
+  font-size: $medium;
+  font-weight: $light;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: $xxx-large;
+    font-weight: $black;
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  h2{
+    font-size: $xx-large;
+    font-weight: $black;
+    text-align: left;
+    margin-top: 15rem;
+    border-top: 1px solid $negro;
+    padding-top: 4rem;
+
+  }
+
+  h3{
+    font-size: $x-large;
+    font-weight: $bold;
+    text-align: left;
+    margin-top: 4rem;
+  }
+
+  h4{
+    font-size: $large;
+    font-weight: $light;
+    text-align: left;
+    margin-top: 4rem;
+  }
+
+  h5{
+    font-size: $medium;
+    font-weight: $medium;
+    text-align: left;
+  }
+
+  p{
+    font-size: $medium;
+    font-weight: $light;
+    text-align: left;
+  }
+}
